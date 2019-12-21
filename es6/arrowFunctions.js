@@ -14,3 +14,17 @@
 
 
 const magic = () => new Date();
+
+
+const doubler = (item) => item * 2;
+
+console.log(doubler(8));
+
+console.log(doubler(8));
+console.log(doubler(2));
+console.log(doubler(90));
+console.log(doubler(34));
+
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+// test your code
+console.log(myConcat([1, 2], [3, 4, 5]));
